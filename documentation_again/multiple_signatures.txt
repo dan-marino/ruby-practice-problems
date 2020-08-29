@@ -1,0 +1,14 @@
+a = %w(a b c d e)
+puts a.fetch(7)
+puts a.fetch(7, 'beats me')
+puts a.fetch(7) { |index| index**2 }
+
+error
+beats me
+14
+
+array.fetch allows you to fetch the index number of that thing. 
+array.fetch(1) will get you the second number. 
+you can set a default if it exceeds. example array.fetch(20, 'that's too far'). 
+you can also do a curly bracket thing like 
+array.fetch(20) {|index| index*2} and get that thing, in this case 40.

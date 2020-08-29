@@ -1,0 +1,19 @@
+name = 'Bob'
+save_name = name
+name = 'Alice'
+puts name, save_name
+
+# => Alice
+# => Bob
+
+name = 'Bob'
+save_name = name
+name.upcase!
+puts name, save_name
+
+# => BOB
+# => BOB
+
+the second mutates the caller which affects both
+
+the first one just assigns a variable to look at another memory location

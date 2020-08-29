@@ -1,0 +1,8 @@
+s = 'abc'
+puts s.public_methods.inspect
+
+s = 'abc'
+puts s.public_methods(false).inspect
+
+a class can override the members of the super class. 
+if you can't find something in the documentation, try going to the parent class

@@ -1,0 +1,4 @@
+require 'yaml'
+MESSAGES = YAML.load_file('calculator_messages.yml')
+
+go to psych section in ruby library to find details about how to work with YAML

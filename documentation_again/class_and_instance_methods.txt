@@ -1,0 +1,4 @@
+File::path returns the string representation of the path. this a class method. 
+File$path returns the pathname used to create file. does not normalize name. 
+the path might not correlate to the files name if it was changed. 
+pathname becomes void once the file is moved or renamed. this is an instance method

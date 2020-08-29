@@ -1,0 +1,11 @@
+def my_method(a, b = 2, c = 3, d)
+  p [a, b, c, d]
+end
+
+my_method(4, 5, 6)
+
+https://ruby-doc.com/core/doc/syntax/calling_methods_rdoc.html 
+this shows how methods take default inputs when it accepts more than is given. 
+how to deal with the ordering and everything. 
+It's a little confusing. the doc explains it pretty well. 
+But basically just try to have everything fit in as best you can.

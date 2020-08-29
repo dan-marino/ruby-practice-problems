@@ -1,0 +1,5 @@
+a = [1, 4, 8, 11, 15, 19]
+
+Array#bsearch helps you find the first element of an array that meets a criteria you set. 
+stands for binary search and is faster. 
+basically its that method of splitting the phone book in half that was discussed in cs50

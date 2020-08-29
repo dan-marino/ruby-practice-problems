@@ -1,0 +1,5 @@
+The %{adjective} %{noun} is going to
+%{adverb} %{verb} on the tree.
+Hopefully the %{adjective} %{noun} will
+%{adverb} %{verb} before the %{adjective}
+%{noun} finds the corner store a mess.

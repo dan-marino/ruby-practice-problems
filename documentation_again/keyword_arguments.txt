@@ -1,0 +1,7 @@
+5.step(to: 10, by: 3) { |value| puts value }
+
+5 and 8 
+
+Numeric#step is pretty cool. 
+good to increment things
+all integers values are Integer objects in ruby 2.4 and up
